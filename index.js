@@ -22,14 +22,14 @@ const colors = {
   magenta,
   cyan,
   white,
-  lightBlack,
+  lightBlack: gray,
   lightRed: red,
   lightGreen: green,
   lightYellow: yellow,
   lightBlue: blue,
   lightMagenta: magenta,
   lightCyan: cyan,
-  lightWhite: white
+  lightWhite: lightGray
 }
 
 module.exports.decorateConfig = config => {
