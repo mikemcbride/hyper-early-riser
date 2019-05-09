@@ -29,7 +29,7 @@ const colors = {
   lightBlue: blue,
   lightMagenta: magenta,
   lightCyan: cyan,
-  lightWhite: lightGray
+  lightWhite: gray
 }
 
 module.exports.decorateConfig = config => {
