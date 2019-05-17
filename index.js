@@ -21,7 +21,7 @@ const colors = {
   blue,
   magenta,
   cyan,
-  white,
+  white: lightGray,
   lightBlack: gray,
   lightRed: red,
   lightGreen: green,
@@ -32,6 +32,7 @@ const colors = {
   lightWhite: gray
 }
 
+// testing
 module.exports.decorateConfig = config => {
   const backgroundColor = white
   const foregroundColor = black
