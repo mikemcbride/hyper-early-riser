@@ -1,17 +1,16 @@
 'use strict'
 
 const black = '#424c57'
-const lightBlack = '#6e7f91'
 const gray = '#8b99a7'
 const lightGray = '#c5ccd3'
 const nearWhite = '#eef0f2'
 const white = '#f7fafc'
-const red = '#e20a00'
+const red = '#de016a'
 const yellow = '#ffa90a'
-const green = '#13b130'
-const cyan = '#36b9ac'
+const green = '#19d23b'
+const cyan = '#4ce8d9'
 const blue = '#0261dc'
-const magenta = '#8626dc'
+const magenta = '#9f00fd'
 
 const colors = {
   black,
@@ -43,7 +42,7 @@ module.exports.decorateConfig = config => {
   const tabText = gray
   const tabTextActive = black
   const dividerBg = nearWhite
-  
+
   return Object.assign({}, config, {
     foregroundColor,
     backgroundColor,
